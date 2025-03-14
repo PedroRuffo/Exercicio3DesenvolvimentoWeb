@@ -3,6 +3,13 @@
     margin: 0;
 }
 
+header,
+nav,
+footer,
+main {
+    float: left;
+}
+
 img{
     width: auto;
     height: auto;
@@ -45,7 +52,7 @@ main p {
 
 h1 {
     font-size: 3rem;
-    margin-top: 220px;
+    margin-top: 20px;
     margin-left: 5rem;
     width: 1000px;
 }
@@ -86,3 +93,69 @@ footer {
 a:hover{
     color: rgb(27, 94, 130);
 }
+
+nav.lateral {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 25%;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+nav.topo {
+    width: 100%;
+    margin-bottom: 1%;
+}
+
+nav.lateral ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav.lateral li a{
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+nav.lateral li a:hover{
+    background-color: gray;
+    color: white;
+    text-indent: 10px;
+}
+
+/* nav topo inicio  */
+
+nav.topo ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gray;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+}
+
+nav.topo li{
+    display: inline-block;
+}
+
+nav.topo li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+nav.topo li a:hover{
+    color: black;
+    text-indent: 10px;
+}
+
+/* nav topo inicio */

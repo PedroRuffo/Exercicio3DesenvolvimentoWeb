@@ -1,12 +1,17 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
 * {
     padding: 0;
-    margin: 0;
-    
+    margin: 0; 
+}
+
+i{
+    color: white;
 }
 
 @font-face { 
     font-family: 'testandofonte'; 
-    src: url("../fontes/boost_player.zip"); 
+    src: url("../fontes/boost_player/BoostPlayer_PERSONAL_USE_ONLY.otf"); 
 }
 
 header,
@@ -51,7 +56,7 @@ main{
 main p {
     width: 1000px;
     margin-left: 5rem;
-    margin-right: 5rem;v
+    margin-right: 5rem;
     font-size: 1.3rem;
     margin-top: 100px;
     font-family: "Bytesized", sans-serif;
@@ -135,7 +140,6 @@ nav.lateral li a{
 nav.lateral li a:hover{
     background-color: gray;
     color: white;
-    text-indent: 10px;
 }
 
 /* nav topo inicio  */
@@ -167,7 +171,6 @@ nav.topo li a{
 
 nav.topo li a:hover{
     color: black;
-    text-indent: 10px;
 }
 
 /* nav topo inicio */
